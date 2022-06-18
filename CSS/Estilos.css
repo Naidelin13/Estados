@@ -1,0 +1,165 @@
+/* Colores importados */
+.color1 {color: #123a52;}
+.color2 {color: #1a6db3;}
+.color3 {color: #20b5d8;}
+.color4 {color: #20dad8;}
+.color5 {color: #a1ebea;}
+
+/* Configuración inicial */
+*{
+    padding: 0%;
+    margin: 0%;
+
+    box-sizing: border-box;
+}
+
+/* Configuración general del BODY */
+body{
+    background-color: #20dad8;
+}
+
+/* Configuracion general del HEADER */
+.header{
+    width: 100%;
+    height: 80px;
+    display: grid;
+}
+
+/* Configuracion particular de la caja del navegador */
+.nevegador{
+    background-color: #20b5d8;
+    width: 100%;
+    height: auto;
+    display: grid;
+}
+
+/* Configuración del contenido particular del navegador */
+.content{
+    width: 360px;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: flex-end;
+    margin-right: 30px;
+
+}
+
+/* Configuracion de las etiquetas de enlace */
+.content a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Configuracion de las etiquetas li */
+.content  li{
+    display: inline-block;
+    height: auto;
+}
+
+/* Efecto hover para etiquetas enlace */
+.content a:hover{
+    color: black;
+    opacity: .6;
+}
+
+/* Efecto activate para etiquetas enlace */
+.content a:active{
+    color: white;
+    opacity: 1;
+}
+
+/* Contenedor general de "bienvenida" */
+.bienvenida{
+    width: 100%;
+}
+
+/* Configuracion del titulo general */
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 15px;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+/* ------------------------------------ */
+/* Configuracion de la caja general de texto presentacion */
+.presentacion{
+    width: 40%;
+    margin: 30px;
+    display: inline-block;
+}
+
+/* Configuracion del parrafo del texto de la presentacion */
+.presentacion p{
+    font-family: cursive;
+    text-align: justify;
+    line-height: 1.7;
+}
+/* ------------------------------------ */
+
+/* Configuracion de la caja general del video */
+.video{
+    width: 50%;
+    height: 430px;
+    margin: 0px 30px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+/* Configuracion del video */
+.video video{
+    display: block;
+    margin: auto;
+}
+/* ------------------------------------ */
+
+.estados h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 25px 0px 20px 0px;
+    font-size: 25px;
+}
+
+.estados-seccion{
+    width: 100%;
+}
+
+.estados{
+    width: 90%;
+    margin: auto;
+    border: 5px solid #1a6db3;
+    border-radius: 10px;
+}
+
+
+
+.cajitas{
+    margin: 20px;
+    display: inline-block;
+    overflow: hidden;
+    width: 350px;
+    height: 280px;
+}
+
+.cajitas img{
+    width: 350px;
+    height: 230px;
+}
+.cajitas a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.cajitas p{
+    text-align: center;
+}
